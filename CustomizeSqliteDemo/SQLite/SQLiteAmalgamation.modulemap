@@ -1,0 +1,7 @@
+framework module SQLiteAmalgamation {
+    // requires objc
+    umbrella header "SQLiteAmalgamation-umbrella.h"
+    link "sqlite3"//system sqlite3 //https://stackoverflow.com/questions/24065880/swift-cant-import-sqlite3-ios
+    export *
+    module * { export * }
+}
